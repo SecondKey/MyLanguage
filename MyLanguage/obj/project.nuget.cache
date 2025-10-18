@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "1ygaUPjhkh4=",
+  "success": true,
+  "projectFilePath": "D:\\MyLanguage\\MyLanguage\\MyLanguage.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\avalonedit\\6.3.1.120\\avalonedit.6.3.1.120.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\dirkster.avalondock\\4.72.1\\dirkster.avalondock.4.72.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\libllvm\\20.1.2\\libllvm.20.1.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\llvmsharp\\20.1.2\\llvmsharp.20.1.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\llvmsharp.interop\\20.1.2\\llvmsharp.interop.20.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

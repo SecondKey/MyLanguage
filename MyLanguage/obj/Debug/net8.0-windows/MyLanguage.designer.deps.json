@@ -1,0 +1,140 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AvalonEdit/6.3.1.120": {
+        "runtime": {
+          "lib/net8.0-windows7.0/ICSharpCode.AvalonEdit.dll": {
+            "assemblyVersion": "6.3.1.120",
+            "fileVersion": "6.3.1.120"
+          }
+        }
+      },
+      "Dirkster.AvalonDock/4.72.1": {
+        "runtime": {
+          "lib/net5.0-windows7.0/AvalonDock.dll": {
+            "assemblyVersion": "4.72.1.0",
+            "fileVersion": "4.72.1.0"
+          }
+        },
+        "resources": {
+          "lib/net5.0-windows7.0/ca-ES/AvalonDock.resources.dll": {
+            "locale": "ca-ES"
+          },
+          "lib/net5.0-windows7.0/cs-CZ/AvalonDock.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/net5.0-windows7.0/de/AvalonDock.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net5.0-windows7.0/es/AvalonDock.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net5.0-windows7.0/fr/AvalonDock.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net5.0-windows7.0/hu/AvalonDock.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net5.0-windows7.0/it/AvalonDock.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net5.0-windows7.0/ja/AvalonDock.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net5.0-windows7.0/ko/AvalonDock.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net5.0-windows7.0/nl-BE/AvalonDock.resources.dll": {
+            "locale": "nl-BE"
+          },
+          "lib/net5.0-windows7.0/pl/AvalonDock.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net5.0-windows7.0/pt/AvalonDock.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net5.0-windows7.0/ro/AvalonDock.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net5.0-windows7.0/ru/AvalonDock.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net5.0-windows7.0/sv/AvalonDock.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net5.0-windows7.0/zh-Hans/AvalonDock.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net5.0-windows7.0/zh-Hant/AvalonDock.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "libLLVM/20.1.2": {},
+      "LLVMSharp/20.1.2": {
+        "dependencies": {
+          "LLVMSharp.Interop": "20.1.2"
+        },
+        "runtime": {
+          "lib/net8.0/LLVMSharp.dll": {
+            "assemblyVersion": "20.1.2.0",
+            "fileVersion": "20.1.2.0"
+          }
+        }
+      },
+      "LLVMSharp.Interop/20.1.2": {
+        "dependencies": {
+          "libLLVM": "20.1.2"
+        },
+        "runtime": {
+          "lib/net8.0/LLVMSharp.Interop.dll": {
+            "assemblyVersion": "20.1.2.0",
+            "fileVersion": "20.1.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AvalonEdit/6.3.1.120": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6ASBKPzAg64BLDlFOJo4Ypr1sA/6hB5+TfHLJaZYUSTE0jgxvKlVqKeo/ISTG9qEMxu604qUu6BGugmJkfdrNw==",
+      "path": "avalonedit/6.3.1.120",
+      "hashPath": "avalonedit.6.3.1.120.nupkg.sha512"
+    },
+    "Dirkster.AvalonDock/4.72.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m5J03HVntDM3eu7GyzLWlNdr2c2TTBAoD33Pq1yCID7vEtk13VVngtlmegp67WUvpL5JUC8G2xU8n+ThZKKz0Q==",
+      "path": "dirkster.avalondock/4.72.1",
+      "hashPath": "dirkster.avalondock.4.72.1.nupkg.sha512"
+    },
+    "libLLVM/20.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fKGHH+a/z2amRo7WislrWZxAIJ+25QGDOEwIcEzacNYgu27nBFNv5gudQzPZjGKBD0EwEYmTuiFb7hz4KgiqVQ==",
+      "path": "libllvm/20.1.2",
+      "hashPath": "libllvm.20.1.2.nupkg.sha512"
+    },
+    "LLVMSharp/20.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y335JTJAcIJNFBtsP2n3q2KDXISVGoDSL0wW60FFZhPJVrsfsGlo8Hy1W30hXbVnOXN2orPQpMPEBrNTXtxbWQ==",
+      "path": "llvmsharp/20.1.2",
+      "hashPath": "llvmsharp.20.1.2.nupkg.sha512"
+    },
+    "LLVMSharp.Interop/20.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cHMef03EWJYxrKskQahCYUs4o9GPdChKb/mleQ/XoNkp9t31Ub9e0H/NdwsLvNluSF/9FgoRlvU/q4iOityIlA==",
+      "path": "llvmsharp.interop/20.1.2",
+      "hashPath": "llvmsharp.interop.20.1.2.nupkg.sha512"
+    }
+  }
+}
